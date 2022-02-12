@@ -5,6 +5,6 @@ func init() {
 }
 
 func ScheduleTable() {
-	SignService()
+	go SignService()
 
 }
